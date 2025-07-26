@@ -6,8 +6,8 @@ API_BASE = os.getenv("API_URL", "https://dolarapi.com/v1/dolares")
 def informacion_comandos():
     return """
     **Comandos disponibles:**
-    - `/dolarB`: Obtiene el valor del dólar blue.
-    - `/dolar`: Obtiene el valor del dólar oficial.
+    - `/dolarB`: Obtiene el valor del dólar blue. \n
+    - `/dolar`: Obtiene el valor del dólar oficial. \n
     - `/valores`: Obtiene todos los valores de los tipos de dólar disponibles.
     """
 
